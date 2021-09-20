@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ReqTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-20T14:13:20" hostname="DESKTOP-8E5P9TA" time="2.167">
+<testsuite name="ReqTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-20T14:38:54" hostname="DESKTOP-8E5P9TA" time="2.849">
   <properties/>
-  <testcase name="loginTest()" classname="ReqTest" time="2.167"/>
+  <testcase name="loginTest()" classname="ReqTest" time="2.849"/>
   <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/login
 Proxy:			<none>
@@ -19,7 +19,7 @@ Body:
     "password": "cityslicka"
 }
 HTTP/1.1 200 OK
-Date: Mon, 20 Sep 2021 14:13:06 GMT
+Date: Mon, 20 Sep 2021 14:38:41 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 29
 Connection: keep-alive
@@ -29,10 +29,10 @@ etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
 via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rfe1Cyoc%2FyaE9WzaOX%2FUVzpmRv3dvxW1DrYkRsfobvG3MAIlvTy9rkLJEPC7m%2FTX9GIQOY6CkIi1Q1rOJfNzpNWrNWHY%2BNiowDsHDaBjYZcrQC2dQWYyvEn0Ch0%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WMLmv1A90s1wt%2ByhD2e5G5kCzEDl9ncHDwU1rB%2FdCVurFaioRhDSAT6fYexoqHdEETbD4oS%2B4H90FCrR%2FjDnjdTztGuUNd4ZkQ9fMJdHrtHr%2FvKfWkCsYnvmY%2B0%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 691ba709cc3e3eb2-BOG
+CF-RAY: 691bcc83083b3ed2-BOG
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 {

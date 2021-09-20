@@ -16,8 +16,7 @@ public class ReqTest {
                 .post("https://reqres.in/api/login")
                 .then()
                 .log().all()
-                .extract()
-                .asString();
-        System.out.println(response);
+                .statusCode(200).
+
     }
 }
