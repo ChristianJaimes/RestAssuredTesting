@@ -15,7 +15,7 @@
     "password": "cityslicka"
 }
 HTTP/1.1 200 OK
-%Date: Mon, 20 Sep 2021 14:38:41 GMT
+%Date: Mon, 20 Sep 2021 16:51:37 GMT
 /Content-Type: application/json; charset=utf-8
 Content-Length: 29
 Connection: keep-alive
@@ -25,13 +25,141 @@
 via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 dExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-€Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WMLmv1A90s1wt%2ByhD2e5G5kCzEDl9ncHDwU1rB%2FdCVurFaioRhDSAT6fYexoqHdEETbD4oS%2B4H90FCrR%2FjDnjdTztGuUNd4ZkQ9fMJdHrtHr%2FvKfWkCsYnvmY%2B0%3D"}],"group":"cf-nel","max_age":604800}
+‚Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MVDp1S7om%2FpItpQengqcqNJBRH5FZuz%2FHysszGFOS0o%2B9WIynNR8f4hcZozTD9261DZUiaMeZ6xQ%2BErXOlpZy4%2FT4WuqngUbPdWgMs%2FrVscBY%2B1p4uztkRT7f9A%3D"}],"group":"cf-nel","max_age":604800}
 CNEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 691bcc83083b3ed2-BOG
+CF-RAY: 691c8f39cf533ef0-BOG
 falt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 {
 !    "token": "QpwL5tke4Pnpja7X4"
 }
-{"token":"QpwL5tke4Pnpja7X4"}
+Request method:	GET
++Request URI:	https://reqres.in/api/sers/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
++Request URI:	https://reqres.in/api/sers/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+%Date: Mon, 20 Sep 2021 16:51:37 GMT
+/Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+ access-control-allow-origin: *
+*etag: W/"e8-ov4wWh4/OY1IMQMqWgskYtOFnVs"
+via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+
+Age: 287
+dExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+üReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CKej36jAXYSTuFECTmebE6vYx6P8O6SGMly5aUz%2F2YDBiTMJWeO%2BLA1cqk29EXCTxyYahzTagKm8COF5GUZuam0kn0S%2FtORPl2qdZVAZyYa%2BMGbAJMfZ1yjYF5I%3D"}],"group":"cf-nel","max_age":604800}
+CNEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 691c8f415fd7e5af-BOG
+Content-Encoding: gzip
+falt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+{
+    "data": {
+        "id": 2,
+         "name": "fuchsia rose",
+        "year": 2001,
+        "color": "#C74375",
+#        "pantone_value": "17-2031"
+    },
+    "support": {
+5        "url": "https://reqres.in/#support-heading",
+[        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+HTTP/1.1 200 OK
+%Date: Mon, 20 Sep 2021 16:51:37 GMT
+/Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+ access-control-allow-origin: *
+*etag: W/"e8-ov4wWh4/OY1IMQMqWgskYtOFnVs"
+via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+
+Age: 287
+dExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+üReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CKej36jAXYSTuFECTmebE6vYx6P8O6SGMly5aUz%2F2YDBiTMJWeO%2BLA1cqk29EXCTxyYahzTagKm8COF5GUZuam0kn0S%2FtORPl2qdZVAZyYa%2BMGbAJMfZ1yjYF5I%3D"}],"group":"cf-nel","max_age":604800}
+CNEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 691c8f415fd7e5af-BOG
+Content-Encoding: gzip
+falt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+{
+    "data": {
+        "id": 2,
+         "name": "fuchsia rose",
+        "year": 2001,
+        "color": "#C74375",
+#        "pantone_value": "17-2031"
+    },
+    "support": {
+5        "url": "https://reqres.in/#support-heading",
+[        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+HTTP/1.1 200 OK
+%Date: Mon, 20 Sep 2021 16:51:37 GMT
+/Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+ access-control-allow-origin: *
+*etag: W/"e8-ov4wWh4/OY1IMQMqWgskYtOFnVs"
+via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+
+Age: 287
+dExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+üReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CKej36jAXYSTuFECTmebE6vYx6P8O6SGMly5aUz%2F2YDBiTMJWeO%2BLA1cqk29EXCTxyYahzTagKm8COF5GUZuam0kn0S%2FtORPl2qdZVAZyYa%2BMGbAJMfZ1yjYF5I%3D"}],"group":"cf-nel","max_age":604800}
+CNEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 691c8f415fd7e5af-BOG
+Content-Encoding: gzip
+falt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+{
+    "data": {
+        "id": 2,
+         "name": "fuchsia rose",
+        "year": 2001,
+        "color": "#C74375",
+#        "pantone_value": "17-2031"
+    },
+    "support": {
+5        "url": "https://reqres.in/#support-heading",
+[        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
