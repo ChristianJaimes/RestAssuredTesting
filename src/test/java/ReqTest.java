@@ -15,7 +15,7 @@ public class ReqTest {
     @Before
     public void setUp(){
         RestAssured.baseURI = "https://reqres.in";
-        RestAssured.basePath = "/api";
+        RestAssured.basePath = "/api/";
         RestAssured.filters(new RequestLoggingFilter(),new ResponseLoggingFilter());
     }
 
@@ -43,4 +43,5 @@ public class ReqTest {
                 .statusCode(HttpStatus.SC_OK)//
                 .body("data.id",equalTo(2));
     }
+
 }
